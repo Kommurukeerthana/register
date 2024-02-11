@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,button{
+            background-image: -webkit-linear-gradient(180deg,rgb(237, 111, 132),rgb(98, 98, 238));
+        }
+        .container{
+            height:500px;
+            width:650px;
+            background-color: white;
+            margin-left: 30%;
+            margin-top: 60px;
+            border:transparent;
+            border-radius: 5px;
+            padding-left: 20px;
+            padding-top: 10px;
+        }
+        .full{
+            height:300px;
+            width: 100px;
+            position:relative;
+        }
+        .name{
+            height:300px;
+            width:300px;
+            position:absolute;
+            left:320px;
+            bottom:5px;
+            top:80px;
+            margin-left: 30px;
+        }
+        .gender{
+            width:500px;
+        }
+        .f{
+            padding-left: 120px;
+        }
+        .p{
+            padding-left:110px;
+        }
+        u{
+            text-decoration-color:rgb(113, 113, 244);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="full">
+   <h1><u>Re</u>gistration</h1>
+   <br>
+   <label><b>Full Name</b></label>
+    </br>
+    <input type="text" style="height:30px;width:250px" placeholder="Enter your name">
+</br></br>
+<div class="email">
+    <label><b>Email</b></label>
+   </br>
+<input type="email" style="height:30px;width:250px" placeholder="Enter your email">
+</br><br>
+<div class="pass">
+<label><b>Password</b></label>
+    </br>
+   <input type="password" style="height:30px;width:250px" placeholder="Enter your password">
+   <br><br>
+</div>   
+</div>
+<div class="name">
+   <label><b>Username</b></label>
+   </br>
+   <input type="text" style="height:30px;width:250px" placeholder="Enter your username">
+   <br><br>
+   <label><b>Phone Number</b></label>
+   </br>
+   <input type="text" style="height:30px;width:250px" placeholder="Enter your number">
+   <br><br>
+   <label><b>Confirm Password</b></label>
+  </br>
+<input type="password" style="height:30px;width:250px" placeholder="Confirm your password">
+</div>
+<div class="gender">
+    <label><b>Gender</b></label>
+    <br><br>
+    <input type="radio" name="gender">
+    <label>Male</label>
+    <span class="f">
+    <input type="radio" name="gender">
+    <label >Female</label>
+    </span>
+    <span class="p">
+    <input type="radio" name="gender">
+    <label>Prefer not to say</label>
+    </span>
+    </div>
+    <br>
+    <button style="height:40px;width:610px;color: white;border: transparent;">Register</button>
+</body>
+</html>
